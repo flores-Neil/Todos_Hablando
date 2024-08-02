@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">todosHablando</string>
+    <string name="accessibility_service_description">Servicio de accesibilidad para detectar el inicio de aplicaciones protegidas.</string>
+</resources>

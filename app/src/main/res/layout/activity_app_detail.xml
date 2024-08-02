@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="119dp"
+        android:layout_height="113dp"
+        android:layout_below="@id/app_name"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@null"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grabar mi clave"
+        android:layout_below="@id/app_icon"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grabar Clave de Voz"
+        android:layout_below="@id/tvRecord"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF4DDBDD"/>
+
+    <TextView
+        android:id="@+id/tvListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escuchar mi clave"
+        android:layout_below="@id/btnRecord"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escuchar Clave de Voz"
+        android:layout_below="@id/tvListen"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF4DDBDD"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnListen"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Clave"
+        android:layout_below="@id/btnListen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF4DDBDD"/>
+
+</RelativeLayout>
